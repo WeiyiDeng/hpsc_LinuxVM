@@ -45,7 +45,9 @@ def test():
 			%(s_v, sw_v)                                 # \ connects to next line of code
 		assert abs(s_v - sw_v) < 1.e-14, "test fails for %20.15e" %x
 		
-	
+if __name__ == "__main__":                                  # if run as a script; __name__ are private variables
+	print("run test")                                          # print running test
+	test()                                                               # call the test program in the module
 	
 	
 	

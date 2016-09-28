@@ -15,6 +15,6 @@ print("+++ after excuting ff, x = %s; y = %s")   %(x,y)
 
 # in ipython>>> run debugtry.py
 # outputs:
-# before: x = 3, y = 22
+# before ff: x = 3, y = 22
 # within ff: z = 3, x = 6, y = 22
-# after: x = 3, y = 6
+# after ff: x = 3, y = 6

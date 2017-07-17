@@ -30,11 +30,11 @@ def showmyip():
     print(ip_address)
 
 
-# for i in range(5):
-#    renew_tor()
-#    connectTor()
-#    showmyip()
-#   time.sleep(10)
+for i in range(5):
+   renew_tor()
+   connectTor()
+   showmyip()
+   time.sleep(10)
     
 #############################################################
 # Random Name for custom_useragent
